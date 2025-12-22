@@ -88,8 +88,10 @@
 
 	nav ul {
 		display: flex;
-		justify-content: space-around;
+		justify-content: center;
 		align-items: center;
+		flex-wrap: wrap;
+		gap: 1rem;
 	}
 
 	nav ul li a:hover {
@@ -98,5 +100,6 @@
 
 	nav ul li {
 		text-align: center;
-		padding: 0 1rem;
+		padding: 0.5rem 1rem;
+		white-space: nowrap;
 	}

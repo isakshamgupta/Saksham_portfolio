@@ -1,0 +1,17 @@
+{
+  "name": "saksham-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for Saksham Gupta",
+  "main": "index.html",
+  "scripts": {
+    "build-css": "sass assets/sass/main.scss assets/css/main.css --style compressed",
+    "watch-css": "sass --watch assets/sass/main.scss assets/css/main.css",
+    "build": "npm run build-css",
+    "start": "python3 -m http.server 8000"
+  },
+  "devDependencies": {
+    "sass": "^1.69.5"
+  },
+  "author": "Saksham Gupta",
+  "license": "MIT"
+}

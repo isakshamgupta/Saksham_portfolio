@@ -48,3 +48,44 @@
 	@import 'layout/header';
 	@import 'layout/main';
 	@import 'layout/footer';
+
+// Custom styles for enhanced beauty
+	html {
+		scroll-behavior: smooth;
+	}
+
+	#intro ul li i {
+		color: #007acc; // Azure blue
+		margin-right: 0.5rem;
+		font-size: 1.2em;
+	}
+
+	#intro ul li strong {
+		color: #ffffff;
+	}
+
+	#elements ul li strong {
+		color: #007acc;
+	}
+
+	#testimonials .testimonial {
+		background: rgba(255, 255, 255, 0.05);
+		padding: 1.5rem;
+		margin-bottom: 1rem;
+		border-radius: 8px;
+		border-left: 4px solid #007acc;
+	}
+
+	#testimonials .testimonial p {
+		margin: 0.5rem 0;
+		font-style: italic;
+	}
+
+	#testimonials .testimonial em {
+		color: #007acc;
+		font-weight: 600;
+	}
+
+	nav ul li a:hover {
+		color: #007acc !important;
+	}
